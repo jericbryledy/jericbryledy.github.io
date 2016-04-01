@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width initial-scale=1" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="theme-color" content="#2a7ae2">
+
+	<title>Ubuntu 10.4 on VMware Issue Workaround</title>
+	<meta name="description" content="This is Jeric Bryle Dy's Personal Site. Here, you can browse his games, check his publications or just bug him by sending him a message.
+">
+
+	<link rel="shortcut icon" href="/favicon.ico" type="image/icon">
+	<link rel="icon" href="/favicon.ico" type="image/icon">
+	
+
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css" />
+
+	<link rel="stylesheet" href="/css/material.min.css" />
+	<script src="/js/material.min.js"></script>
+	<link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons" />
+
+	<link rel="stylesheet" href="/css/magnific-popup.css">
+	<link rel="stylesheet" href="/css/main.css">
+	
+	<script type="text/javascript" src="/js/jquery-2.1.1.min.js"></script>
+	<script type="text/javascript" src="/js/jquery.magnific-popup.min.js"></script>
+	<script type="text/javascript" src="/js/main.js"></script>
+	
+	<!-- social plugins -->
+	<script src="https://apis.google.com/js/platform.js" async defer></script>
+	<script id="facebook-jssdk" type="text/javascript" defer src="//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=1476944352583507&version=v2.0"></script>
+	<script id="twitter-wjs" type="text/javascript" defer src="//platform.twitter.com/widgets.js"></script>
+	<!-- g+ comment -->
+	<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+
+	<link rel="canonical" href="http://www.jericdy.com/blog/2010/07/03/ubuntu-104-on-vmware-issue-workaround.html">
+</head>
+
+
+	<body>
+
+		<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+
+			
+<header class="mdl-layout__header">
+	<div class="mdl-layout__header-row">
+		<!-- Title -->
+		<span class="mdl-layout-title">
+			<a class="site-title-link" href="/">
+				<div class="site-title">Jeric Bryle Dy</div>
+				<div class="site-moto">Life is a Game</div>
+			</a>
+		</span>
+		<!-- Add spacer, to align navigation to the right -->
+		<div class="mdl-layout-spacer"></div>
+		<!-- Navigation. We hide it in small screens. -->
+		<nav class="top-navigation mdl-navigation mdl-layout--large-screen-only">
+			<a class="mdl-navigation__link" href="/blog/">Blog</a>
+			<a class="mdl-navigation__link" href="/games/">Games</a>
+			<a class="mdl-navigation__link" href="/publications/">Publications</a>
+			<a class="mdl-navigation__link" href="/about/">About</a>
+		</nav>
+	</div>
+</header>
+<div class="mdl-layout__drawer">
+	<span class="left-navigation mdl-layout-title">Jeric Bryle Dy</span>
+	<nav class="mdl-navigation">
+		<a class="mdl-navigation__link" href="/blog/">Blog</a>
+		<a class="mdl-navigation__link" href="/games/">Games</a>
+		<a class="mdl-navigation__link" href="/publications/">Publications</a>
+		<a class="mdl-navigation__link" href="/about/">About</a>
+	</nav>
+</div>
+
+
+			<main class="mdl-layout__content">
+				<div class="page-content">
+
+					<div class="wrapper">
+
+						<div itemscope itemtype="http://schema.org/Blog" class="post">
+
+	<meta itemprop="image" content="http://www.jericdy.com/images/blog/vmware-ubuntu-10.4-17.png" />
+	<meta itemprop="thumbnailUrl" content="http://www.jericdy.com/images/blog/vmware-ubuntu-10.4-17.png" />
+	<header class="post-header">
+		<h1 itemprop="name" class="post-title">Ubuntu 10.4 on VMware Issue Workaround</h1>
+		<p class="post-meta">
+			<meta itemprop="datePublished" content="2010-07-03T10:44:00+00:00" />
+			<span id="post-timestamp">July 3, 2010</span>
+			•
+			<span itemscope itemprop="author" itemtype="http://schema.org/Person">
+				<span itemprop="givenName">Jeric Bryle</span>
+				<span itemprop="familyName">Dy</span>
+			</span>
+			
+		</p>
+	</header>
+
+	<article class="post-content">
+		<p>
+	As some of you may already know, there's an issue when installing ubuntu 10.4 on VMware.
+	After installing, Ubuntu won't detect you're keyboard.
+	When you try to use the on-screen keyboard, the window crashes.
+	You can't do anything to login.
+	I've tried searching for answer but didn't find anything, I tried a lot of stuff and and finally was able to come up with a workaround.
+	The solution is simple, don't use the <i>Easy Install</i> option by VMware, just install the OS manually.
+</p>
+
+<p>
+	Here's a step by step tutorial (with screenshots to help newbies), just click on the images to enlarge...
+</p>
+
+<p>
+	First, create a new virtual machine (File->New->Virtual Machine or Ctrl+N).
+</p>
+
+
+
+	<div class="item-spacer">
+
+
+<a class="image-zoom" href="/images/blog/vmware-ubuntu-10.4-1.png">
+	<img class="img-responsive image-center" src="/images/blog/vmware-ubuntu-10.4-1.png" />
+</a>
+
+
+
+	</div>
+
+
+
+<p>
+	Choose typical then click next.
+</p>
+
+
+
+	<div class="item-spacer">
+
+
+<a class="image-zoom" href="/images/blog/vmware-ubuntu-10.4-2.png">
+	<img class="img-responsive image-center" src="/images/blog/vmware-ubuntu-10.4-2.png" />
+</a>
+
+
+
+	</div>
+
+
+
+<p>
+	You must select "I will install the operating system later" so Easy Install option will not bother you.
+</p>
+
+
+
+	<div class="item-spacer">
+
+
+<a class="image-zoom" href="/images/blog/vmware-ubuntu-10.4-3.png">
+	<img class="img-responsive image-center" src="/images/blog/vmware-ubuntu-10.4-3.png" />
+</a>
+
+
+
+	</div>
+
+
+
+<p>
+	Select Linux just in case you don't know yet.
+</p>
+
+
+
+	<div class="item-spacer">
+
+
+<a class="image-zoom" href="/images/blog/vmware-ubuntu-10.4-4.png">
+	<img class="img-responsive image-center" src="/images/blog/vmware-ubuntu-10.4-4.png" />
+</a>
+
+
+
+	</div>
+
+
+
+<p>
+	Enter the machine name and the path of the virtual HDD and preferences would be stored.
+</p>
+
+
+
+	<div class="item-spacer">
+
+
+<a class="image-zoom" href="/images/blog/vmware-ubuntu-10.4-5.png">
+	<img class="img-responsive image-center" src="/images/blog/vmware-ubuntu-10.4-5.png" />
+</a>
+
+
+
+	</div>
+
+
+
+<p>
+	Enter the maximum HDD capacity for your virtual HDD. It can later be changed via "vmware-vdiskmanager -x option" ex. "vmware-vdiskmanager.exe -x 30Gb hdd.vmdk".
+</p>
+
+
+
+	<div class="item-spacer">
+
+
+<a class="image-zoom" href="/images/blog/vmware-ubuntu-10.4-6.png">
+	<img class="img-responsive image-center" src="/images/blog/vmware-ubuntu-10.4-6.png" />
+</a>
+
+
+
+	</div>
+
+
+
+<p>
+	Customize the hardware if you want then click finish.
+</p>
+
+
+
+	<div class="item-spacer">
+
+
+<a class="image-zoom" href="/images/blog/vmware-ubuntu-10.4-7.png">
+	<img class="img-responsive image-center" src="/images/blog/vmware-ubuntu-10.4-7.png" />
+</a>
+
+
+
+	</div>
+
+
+
+<p>
+	Click "Edit virtual machine settings"...
+</p>
+
+
+
+	<div class="item-spacer">
+
+
+<a class="image-zoom" href="/images/blog/vmware-ubuntu-10.4-8.png">
+	<img class="img-responsive image-center" src="/images/blog/vmware-ubuntu-10.4-8.png" />
+</a>
+
+
+
+	</div>
+
+
+
+<p>
+	Select CD/DVD (IDE) on the left pane, then on the right pane, if you have the disc, select the physical drive or if you have the ISO file select "use ISO image file".
+</p>
+
+<p>
+	Now click ok then click "Power on this virtual machine". Wait for a while.
+</p>
+
+
+
+	<div class="item-spacer">
+
+
+<a class="image-zoom" href="/images/blog/vmware-ubuntu-10.4-9.png">
+	<img class="img-responsive image-center" src="/images/blog/vmware-ubuntu-10.4-9.png" />
+</a>
+
+
+
+	</div>
+
+
+
+<p>
+	Click install Ubuntu...
+</p>
+
+
+
+	<div class="item-spacer">
+
+
+<a class="image-zoom" href="/images/blog/vmware-ubuntu-10.4-10.png">
+	<img class="img-responsive image-center" src="/images/blog/vmware-ubuntu-10.4-10.png" />
+</a>
+
+
+
+	</div>
+
+
+
+<p>
+	Select where you live...
+</p>
+
+
+
+	<div class="item-spacer">
+
+
+<a class="image-zoom" href="/images/blog/vmware-ubuntu-10.4-11.png">
+	<img class="img-responsive image-center" src="/images/blog/vmware-ubuntu-10.4-11.png" />
+</a>
+
+
+
+	</div>
+
+
+
+<p>
+	You should be able to type here... or select another keyboard if not...
+</p>
+
+
+
+	<div class="item-spacer">
+
+
+<a class="image-zoom" href="/images/blog/vmware-ubuntu-10.4-12.png">
+	<img class="img-responsive image-center" src="/images/blog/vmware-ubuntu-10.4-12.png" />
+</a>
+
+
+
+	</div>
+
+
+
+<p>
+	Forward if you don't want to partition...
+</p>
+
+
+
+	<div class="item-spacer">
+
+
+<a class="image-zoom" href="/images/blog/vmware-ubuntu-10.4-13.png">
+	<img class="img-responsive image-center" src="/images/blog/vmware-ubuntu-10.4-13.png" />
+</a>
+
+
+
+	</div>
+
+
+
+<p>Account setup...</p>
+
+
+
+	<div class="item-spacer">
+
+
+<a class="image-zoom" href="/images/blog/vmware-ubuntu-10.4-14.png">
+	<img class="img-responsive image-center" src="/images/blog/vmware-ubuntu-10.4-14.png" />
+</a>
+
+
+
+	</div>
+
+
+
+<p>
+	And finally, click install and find something else to do.
+</p>
+
+
+
+	<div class="item-spacer">
+
+
+<a class="image-zoom" href="/images/blog/vmware-ubuntu-10.4-16.png">
+	<img class="img-responsive image-center" src="/images/blog/vmware-ubuntu-10.4-16.png" />
+</a>
+
+
+
+	</div>
+
+
+
+<p>
+	After installation, you should be able to type on the password unlike before...
+</p>
+
+
+
+	<div class="item-spacer">
+
+
+<a class="image-zoom" href="/images/blog/vmware-ubuntu-10.4-17.png">
+	<img class="img-responsive image-center" src="/images/blog/vmware-ubuntu-10.4-17.png" />
+</a>
+
+
+
+	</div>
+
+
+
+<p>
+	And yehey! You're in!
+</p>
+
+
+
+	<div class="item-spacer">
+
+
+<a class="image-zoom" href="/images/blog/vmware-ubuntu-10.4-18.png">
+	<img class="img-responsive image-center" src="/images/blog/vmware-ubuntu-10.4-18.png" />
+</a>
+
+
+
+	</div>
+
+
+
+<p>
+	Hope this helps.
+	If you've read every single word and not just click Forward, Forward, Forward... boy, you must be really bored. hahaha.
+</p>
+
+	</article>
+	<div class="g-comments"
+		
+			data-href="http://blog.jericdy.com/2010/07/ubuntu-104-on-vmware-issue-workaround.html"
+		
+		data-width="642"
+		data-first_party_property="BLOGGER"
+		data-view_type="FILTERED_POSTMOD">
+	</div>
+
+</div>
+
+
+					</div>
+
+				</div>
+
+				
+<footer class="mdl-mini-footer">
+	<div class="mdl-mini-footer--left-section" style="width: 50%;">
+		<div class="mdl-logo">Follow</div>
+		
+			<a class="follow-link" href="https://www.linkedin.com/in/jericdy" title="LinkedIn">
+				<div class="follow-entry">
+					<img src="/images/icons/social/linkedin.svg" width="16" height="16" />
+				</div>
+			</a>
+		
+			<a class="follow-link" href="https://www.youtube.com/user/jericbryledy" title="YouTube">
+				<div class="follow-entry">
+					<img src="/images/icons/social/youtube.svg" width="16" height="16" />
+				</div>
+			</a>
+		
+			<a class="follow-link" href="http://blog.jericdy.com" title="Blogger">
+				<div class="follow-entry">
+					<img src="/images/icons/social/blogger.svg" width="16" height="16" />
+				</div>
+			</a>
+		
+			<a class="follow-link" href="https://twitter.com/jericbryledy" title="Twitter">
+				<div class="follow-entry">
+					<img src="/images/icons/social/twitter.svg" width="16" height="16" />
+				</div>
+			</a>
+		
+			<a class="follow-link" href="https://plus.google.com/+JericBryleDy" title="Google+">
+				<div class="follow-entry">
+					<img src="/images/icons/social/gplus.svg" width="16" height="16" />
+				</div>
+			</a>
+		
+			<a class="follow-link" href="https://www.facebook.com/jericdy" title="Facebook">
+				<div class="follow-entry">
+					<img src="/images/icons/social/facebook.svg" width="16" height="16" />
+				</div>
+			</a>
+		
+			<a class="follow-link" href="https://github.com/jericbryledy" title="GitHub">
+				<div class="follow-entry">
+					<img src="/images/icons/social/github.svg" width="16" height="16" />
+				</div>
+			</a>
+		
+	</div>
+	<div class="mdl-mini-footer__right-section" style="width: 50%;">
+		<div class="mdl-logo">Share</div>
+		<div>
+			<div class="social-entry">
+				<div class="gplus">
+					<div class="g-plusone" data-href="http://www.jericdy.com/blog/2010/07/03/ubuntu-104-on-vmware-issue-workaround.html" data-size="medium"></div>
+				</div>
+			</div>
+			<div class="social-entry">
+				<div class="facebook">
+					<div id="fb-root"></div>
+					<div class="fb-like" data-href="http://www.jericdy.com/blog/2010/07/03/ubuntu-104-on-vmware-issue-workaround.html" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div>
+				</div>
+			</div>
+			<div class="social-entry">
+				<div class="twitter">
+					<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.jericdy.com/blog/2010/07/03/ubuntu-104-on-vmware-issue-workaround.html" data-hashtags="jericdy">Tweet</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+			</main>
+
+		</div>
+
+	</body>
+
+</html>

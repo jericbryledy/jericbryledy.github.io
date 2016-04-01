@@ -1,0 +1,17 @@
+
+.pub-sec {
+	padding-top: 30px;
+}
+
+.pub-year {
+	font-size: x-large;
+}
+
+.pub-entry {
+	padding: 10px 30px;
+}
+
+.pub-title {
+	display: inline-block;
+	font-weight: bold;
+}

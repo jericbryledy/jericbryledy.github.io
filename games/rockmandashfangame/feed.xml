@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Mega Man Legends: Operation Mother Lode</title>
+		<description>A Mega Man Legends fan game written in C++ with using DirectX</description>
+		<link>http://www.jericdy.com/games/rockmandashfangame/</link>
+		<atom:link href="http://www.jericdy.com/games/rockmandashfangame/feed.xml" rel="self" type="application/rss+xml" />
+		<pubDate>Fri, 01 Apr 2016 14:05:44 +0000</pubDate>
+		<lastBuildDate>Fri, 01 Apr 2016 14:05:44 +0000</lastBuildDate>
+		<generator>Jekyll v3.0.3</generator>
+		
+			<item>
+				<title>Happy 28th Anniversary to Mega Man!</title>
+				<pubDate>Thu, 17 Dec 2015 18:29:00 +0000</pubDate>
+				<link>http://www.jericdy.com/games/rockmandashfangame/2015/12/17/happy-28th-anniversary-to-mega-man.html</link>
+				<guid isPermaLink="true">http://www.jericdy.com/games/rockmandashfangame/2015/12/17/happy-28th-anniversary-to-mega-man.html</guid>
+				
+				
+					<category>games</category>
+				
+					<category>rockmandashfangame</category>
+				
+			</item>
+		
+			<item>
+				<title>Happy 27th Anniversary to Mega Man!</title>
+				<pubDate>Tue, 16 Dec 2014 16:00:00 +0000</pubDate>
+				<link>http://www.jericdy.com/games/rockmandashfangame/2014/12/16/happy-27th-anniversary-to-mega-man.html</link>
+				<guid isPermaLink="true">http://www.jericdy.com/games/rockmandashfangame/2014/12/16/happy-27th-anniversary-to-mega-man.html</guid>
+				
+				
+					<category>games</category>
+				
+					<category>rockmandashfangame</category>
+				
+			</item>
+		
+			<item>
+				<title>Happy 26th Anniversary to Mega Man!</title>
+				<pubDate>Mon, 16 Dec 2013 16:00:00 +0000</pubDate>
+				<link>http://www.jericdy.com/games/rockmandashfangame/2013/12/16/happy-26th-anniversary-to-mega-man.html</link>
+				<guid isPermaLink="true">http://www.jericdy.com/games/rockmandashfangame/2013/12/16/happy-26th-anniversary-to-mega-man.html</guid>
+				
+				
+					<category>games</category>
+				
+					<category>rockmandashfangame</category>
+				
+			</item>
+		
+			<item>
+				<title>Jeric Man Legends!</title>
+				<pubDate>Sun, 31 Mar 2013 19:20:00 +0000</pubDate>
+				<link>http://www.jericdy.com/games/rockmandashfangame/2013/03/31/jeric-man-legends.html</link>
+				<guid isPermaLink="true">http://www.jericdy.com/games/rockmandashfangame/2013/03/31/jeric-man-legends.html</guid>
+				
+				
+					<category>games</category>
+				
+					<category>rockmandashfangame</category>
+				
+			</item>
+		
+			<item>
+				<title>Happy 25th Anniversary to Mega Man!</title>
+				<pubDate>Sun, 16 Dec 2012 15:48:00 +0000</pubDate>
+				<link>http://www.jericdy.com/games/rockmandashfangame/2012/12/16/happy-25th-anniversary-to-mega-man.html</link>
+				<guid isPermaLink="true">http://www.jericdy.com/games/rockmandashfangame/2012/12/16/happy-25th-anniversary-to-mega-man.html</guid>
+				
+				
+					<category>games</category>
+				
+					<category>rockmandashfangame</category>
+				
+			</item>
+		
+			<item>
+				<title>Happy 24th Anniversary to Mega Man!</title>
+				<pubDate>Fri, 16 Dec 2011 16:00:00 +0000</pubDate>
+				<link>http://www.jericdy.com/games/rockmandashfangame/2011/12/16/happy-24th-anniversary-to-mega-man.html</link>
+				<guid isPermaLink="true">http://www.jericdy.com/games/rockmandashfangame/2011/12/16/happy-24th-anniversary-to-mega-man.html</guid>
+				
+				
+					<category>games</category>
+				
+					<category>rockmandashfangame</category>
+				
+			</item>
+		
+			<item>
+				<title>Data, more animations, and some other stuff</title>
+				<pubDate>Fri, 16 Sep 2011 01:02:00 +0000</pubDate>
+				<link>http://www.jericdy.com/games/rockmandashfangame/2011/09/16/data-more-animations-and-some-other-stuff.html</link>
+				<guid isPermaLink="true">http://www.jericdy.com/games/rockmandashfangame/2011/09/16/data-more-animations-and-some-other-stuff.html</guid>
+				
+				
+					<category>games</category>
+				
+					<category>rockmandashfangame</category>
+				
+			</item>
+		
+			<item>
+				<title>Capcom&#39;s Bad News</title>
+				<pubDate>Wed, 20 Jul 2011 15:18:00 +0000</pubDate>
+				<link>http://www.jericdy.com/games/rockmandashfangame/2011/07/20/capcoms-bad-news.html</link>
+				<guid isPermaLink="true">http://www.jericdy.com/games/rockmandashfangame/2011/07/20/capcoms-bad-news.html</guid>
+				
+				
+					<category>games</category>
+				
+					<category>rockmandashfangame</category>
+				
+			</item>
+		
+			<item>
+				<title>Obstacles and Collisions</title>
+				<pubDate>Mon, 18 Apr 2011 03:25:00 +0000</pubDate>
+				<link>http://www.jericdy.com/games/rockmandashfangame/2011/04/18/obstacles-and-collisions.html</link>
+				<guid isPermaLink="true">http://www.jericdy.com/games/rockmandashfangame/2011/04/18/obstacles-and-collisions.html</guid>
+				
+				
+					<category>games</category>
+				
+					<category>rockmandashfangame</category>
+				
+			</item>
+		
+			<item>
+				<title>Bonne Machine inspired by Command and Conquer&#39;s Mammoth Tank</title>
+				<pubDate>Thu, 10 Mar 2011 06:10:00 +0000</pubDate>
+				<link>http://www.jericdy.com/games/rockmandashfangame/2011/03/10/bonne-machine-inspired-by-command-and-conquers-mammoth-tank.html</link>
+				<guid isPermaLink="true">http://www.jericdy.com/games/rockmandashfangame/2011/03/10/bonne-machine-inspired-by-command-and-conquers-mammoth-tank.html</guid>
+				
+				
+					<category>games</category>
+				
+					<category>rockmandashfangame</category>
+				
+			</item>
+		
+			<item>
+				<title>Hanmuru Doll and Servbots and Stuff</title>
+				<pubDate>Sun, 13 Feb 2011 06:11:00 +0000</pubDate>
+				<link>http://www.jericdy.com/games/rockmandashfangame/2011/02/13/hanmuru-doll-and-serbots-and-stuff.html</link>
+				<guid isPermaLink="true">http://www.jericdy.com/games/rockmandashfangame/2011/02/13/hanmuru-doll-and-serbots-and-stuff.html</guid>
+				
+				
+					<category>games</category>
+				
+					<category>rockmandashfangame</category>
+				
+			</item>
+		
+			<item>
+				<title>The Horokkos are here!</title>
+				<pubDate>Thu, 03 Feb 2011 02:28:00 +0000</pubDate>
+				<link>http://www.jericdy.com/games/rockmandashfangame/2011/02/03/the-horokkos-are-here.html</link>
+				<guid isPermaLink="true">http://www.jericdy.com/games/rockmandashfangame/2011/02/03/the-horokkos-are-here.html</guid>
+				
+				
+					<category>games</category>
+				
+					<category>rockmandashfangame</category>
+				
+			</item>
+		
+			<item>
+				<title>Happy 23rd Anniversary to Mega Man!</title>
+				<pubDate>Thu, 16 Dec 2010 16:38:00 +0000</pubDate>
+				<link>http://www.jericdy.com/games/rockmandashfangame/2010/12/16/happy-23rd-anniversary-to-mega-man.html</link>
+				<guid isPermaLink="true">http://www.jericdy.com/games/rockmandashfangame/2010/12/16/happy-23rd-anniversary-to-mega-man.html</guid>
+				
+				
+					<category>games</category>
+				
+					<category>rockmandashfangame</category>
+				
+			</item>
+		
+			<item>
+				<title>Control Update</title>
+				<pubDate>Sat, 10 Jul 2010 09:01:00 +0000</pubDate>
+				<link>http://www.jericdy.com/games/rockmandashfangame/2010/07/10/control-update.html</link>
+				<guid isPermaLink="true">http://www.jericdy.com/games/rockmandashfangame/2010/07/10/control-update.html</guid>
+				
+				
+					<category>games</category>
+				
+					<category>rockmandashfangame</category>
+				
+			</item>
+		
+			<item>
+				<title>Half a year later...</title>
+				<pubDate>Wed, 02 Jun 2010 00:57:00 +0000</pubDate>
+				<link>http://www.jericdy.com/games/rockmandashfangame/2010/06/02/half-a-year-later.html</link>
+				<guid isPermaLink="true">http://www.jericdy.com/games/rockmandashfangame/2010/06/02/half-a-year-later.html</guid>
+				
+				
+					<category>games</category>
+				
+					<category>rockmandashfangame</category>
+				
+			</item>
+		
+			<item>
+				<title>Happy 22nd Anniversary to Mega Man!</title>
+				<pubDate>Wed, 16 Dec 2009 16:00:00 +0000</pubDate>
+				<link>http://www.jericdy.com/games/rockmandashfangame/2009/12/16/happy-22nd-anniversary-to-mega-man.html</link>
+				<guid isPermaLink="true">http://www.jericdy.com/games/rockmandashfangame/2009/12/16/happy-22nd-anniversary-to-mega-man.html</guid>
+				
+				
+					<category>games</category>
+				
+					<category>rockmandashfangame</category>
+				
+			</item>
+		
+			<item>
+				<title>Controls</title>
+				<pubDate>Sun, 29 Nov 2009 13:22:00 +0000</pubDate>
+				<link>http://www.jericdy.com/games/rockmandashfangame/2009/11/29/controls.html</link>
+				<guid isPermaLink="true">http://www.jericdy.com/games/rockmandashfangame/2009/11/29/controls.html</guid>
+				
+				
+					<category>games</category>
+				
+					<category>rockmandashfangame</category>
+				
+			</item>
+		
+			<item>
+				<title>Run Animation Video</title>
+				<pubDate>Sun, 29 Nov 2009 09:29:00 +0000</pubDate>
+				<link>http://www.jericdy.com/games/rockmandashfangame/2009/11/29/run-animation-video.html</link>
+				<guid isPermaLink="true">http://www.jericdy.com/games/rockmandashfangame/2009/11/29/run-animation-video.html</guid>
+				
+				
+					<category>games</category>
+				
+					<category>rockmandashfangame</category>
+				
+			</item>
+		
+			<item>
+				<title>Run Animation</title>
+				<pubDate>Sun, 15 Nov 2009 13:32:00 +0000</pubDate>
+				<link>http://www.jericdy.com/games/rockmandashfangame/2009/11/15/run-animation.html</link>
+				<guid isPermaLink="true">http://www.jericdy.com/games/rockmandashfangame/2009/11/15/run-animation.html</guid>
+				
+				
+					<category>games</category>
+				
+					<category>rockmandashfangame</category>
+				
+			</item>
+		
+			<item>
+				<title>Mega Man is now Textured!</title>
+				<pubDate>Mon, 09 Nov 2009 17:08:00 +0000</pubDate>
+				<link>http://www.jericdy.com/games/rockmandashfangame/2009/11/09/mega-man-is-now-textured.html</link>
+				<guid isPermaLink="true">http://www.jericdy.com/games/rockmandashfangame/2009/11/09/mega-man-is-now-textured.html</guid>
+				
+				
+					<category>games</category>
+				
+					<category>rockmandashfangame</category>
+				
+			</item>
+		
+			<item>
+				<title>3D Mega Man</title>
+				<pubDate>Sat, 07 Nov 2009 08:57:00 +0000</pubDate>
+				<link>http://www.jericdy.com/games/rockmandashfangame/2009/11/07/3d-mega-man.html</link>
+				<guid isPermaLink="true">http://www.jericdy.com/games/rockmandashfangame/2009/11/07/3d-mega-man.html</guid>
+				
+				
+					<category>games</category>
+				
+					<category>rockmandashfangame</category>
+				
+			</item>
+		
+			<item>
+				<title>Me as a 3D artist?</title>
+				<pubDate>Mon, 02 Nov 2009 19:02:00 +0000</pubDate>
+				<link>http://www.jericdy.com/games/rockmandashfangame/2009/11/02/me-as-a-3d-artist.html</link>
+				<guid isPermaLink="true">http://www.jericdy.com/games/rockmandashfangame/2009/11/02/me-as-a-3d-artist.html</guid>
+				
+				
+					<category>games</category>
+				
+					<category>rockmandashfangame</category>
+				
+			</item>
+		
+			<item>
+				<title>Another Rockman Dash Fan Game</title>
+				<pubDate>Thu, 08 Oct 2009 07:56:00 +0000</pubDate>
+				<link>http://www.jericdy.com/games/rockmandashfangame/2009/10/08/another-rockman-dash-fan-game.html</link>
+				<guid isPermaLink="true">http://www.jericdy.com/games/rockmandashfangame/2009/10/08/another-rockman-dash-fan-game.html</guid>
+				
+				
+					<category>games</category>
+				
+					<category>rockmandashfangame</category>
+				
+			</item>
+		
+	</channel>
+</rss>
