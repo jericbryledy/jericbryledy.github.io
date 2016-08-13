@@ -25,9 +25,13 @@
 	<link rel="stylesheet" href="/css/magnific-popup.css">
 	<link rel="stylesheet" href="/css/main.css">
 	
+	
 	<script type="text/javascript" src="/js/jquery-2.1.1.min.js"></script>
 	<script type="text/javascript" src="/js/jquery.magnific-popup.min.js"></script>
 	<script type="text/javascript" src="/js/main.js"></script>
+	
+		<script type="text/javascript" src="/js/post.js"></script>
+	
 	
 	<!-- social plugins -->
 	<script src="https://apis.google.com/js/platform.js" async defer></script>
@@ -214,14 +218,46 @@
 </p>
 
 	</article>
-	<div class="g-comments"
-		
-			data-href="http://blog.jericdy.com/2010/07/my-decade-old-belt.html"
-		
-		data-width="642"
-		data-first_party_property="BLOGGER"
-		data-view_type="FILTERED_POSTMOD">
+
+	<div id="disqus-comments">
+		<div id="disqus_thread"></div>
+<script>
+	var disqus_config = function () {
+		this.page.url = "http://www.jericdy.com/blog/2010/07/20/my-decade-old-belt.html";
+		this.page.identifier = "/blog/2010/07/20/my-decade-old-belt.html";
+	};
+
+	(function () {
+		var d = document, s = d.createElement('script');
+		s.src = '//jeric.disqus.com/embed.js';
+		s.setAttribute('data-timestamp', +new Date());
+		(d.head || d.body).appendChild(s);
+	})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
 	</div>
+
+	
+		<div id="blogger-comments-option">
+			<center>
+				<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="showOldComments();">
+					See ancient comments
+				</button>
+			</center>
+		</div>
+		<div id="blogger-comments" style="display: none;">
+			<div class="g-comments"
+	 
+	 data-href="http://blog.jericdy.com/2010/07/my-decade-old-belt.html"
+	 
+	 data-width="642"
+	 data-first_party_property="BLOGGER"
+	 data-view_type="FILTERED_POSTMOD">
+</div>
+
+		</div>
+	
 
 </div>
 

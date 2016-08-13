@@ -25,9 +25,13 @@
 	<link rel="stylesheet" href="/css/magnific-popup.css">
 	<link rel="stylesheet" href="/css/main.css">
 	
+	
 	<script type="text/javascript" src="/js/jquery-2.1.1.min.js"></script>
 	<script type="text/javascript" src="/js/jquery.magnific-popup.min.js"></script>
 	<script type="text/javascript" src="/js/main.js"></script>
+	
+		<script type="text/javascript" src="/js/post.js"></script>
+	
 	
 	<!-- social plugins -->
 	<script src="https://apis.google.com/js/platform.js" async defer></script>
@@ -279,14 +283,14 @@
 
 <figure class="highlight"><pre><code class="language-java" data-lang="java"><span class="kd">private</span> <span class="kd">final</span> <span class="n">Runnable</span> <span class="n">hideSystemUiCallback</span> <span class="o">=</span> <span class="k">new</span> <span class="n">Runnable</span><span class="o">()</span> <span class="o">{</span>
     <span class="nd">@Override</span>
-    <span class="kd">public</span> <span class="kt">void</span> <span class="n">run</span><span class="o">()</span> <span class="o">{</span>
+    <span class="kd">public</span> <span class="kt">void</span> <span class="nf">run</span><span class="o">()</span> <span class="o">{</span>
         <span class="n">setSystemUiVisibility</span><span class="o">(</span><span class="n">View</span><span class="o">.</span><span class="na">SYSTEM_UI_FLAG_IMMERSIVE_STICKY</span> <span class="o">|</span> <span class="n">View</span><span class="o">.</span><span class="na">SYSTEM_UI_FLAG_HIDE_NAVIGATION</span><span class="o">);</span>
     <span class="o">}</span>
 <span class="o">};</span></code></pre></figure>
 
 <figure class="highlight"><pre><code class="language-java" data-lang="java"><span class="n">setOnSystemUiVisibilityChangeListener</span><span class="o">(</span><span class="k">new</span> <span class="n">View</span><span class="o">.</span><span class="na">OnSystemUiVisibilityChangeListener</span><span class="o">()</span> <span class="o">{</span>
     <span class="nd">@Override</span>
-    <span class="kd">public</span> <span class="kt">void</span> <span class="n">onSystemUiVisibilityChange</span><span class="o">(</span><span class="kt">int</span> <span class="n">visibility</span><span class="o">)</span> <span class="o">{</span>
+    <span class="kd">public</span> <span class="kt">void</span> <span class="nf">onSystemUiVisibilityChange</span><span class="o">(</span><span class="kt">int</span> <span class="n">visibility</span><span class="o">)</span> <span class="o">{</span>
         <span class="k">if</span> <span class="o">((</span><span class="n">visibility</span> <span class="o">&amp;</span> <span class="o">(</span><span class="n">View</span><span class="o">.</span><span class="na">SYSTEM_UI_FLAG_IMMERSIVE_STICKY</span> <span class="o">|</span> <span class="n">View</span><span class="o">.</span><span class="na">SYSTEM_UI_FLAG_HIDE_NAVIGATION</span><span class="o">))</span> <span class="o">==</span> <span class="mi">0</span><span class="o">)</span> <span class="o">{</span>
             <span class="n">hideSystemUiHandler</span><span class="o">.</span><span class="na">removeCallbacks</span><span class="o">(</span><span class="n">hideSystemUiCallback</span><span class="o">);</span>
             <span class="n">hideSystemUiHandler</span><span class="o">.</span><span class="na">postDelayed</span><span class="o">(</span><span class="n">hideSystemUiCallback</span><span class="o">,</span> <span class="n">HIDE_SYSTEM_UI_DELAY_MILLI</span><span class="o">);</span>
@@ -300,14 +304,46 @@
 </p>
 
 	</article>
-	<div class="g-comments"
-		
-			data-href="http://www.jericdy.com/blog/2014/01/09/proper-way-to-use-full-screen-immersive.html"
-		
-		data-width="642"
-		data-first_party_property="BLOGGER"
-		data-view_type="FILTERED_POSTMOD">
+
+	<div id="disqus-comments">
+		<div id="disqus_thread"></div>
+<script>
+	var disqus_config = function () {
+		this.page.url = "http://www.jericdy.com/blog/2014/01/09/proper-way-to-use-full-screen-immersive.html";
+		this.page.identifier = "/blog/2014/01/09/proper-way-to-use-full-screen-immersive.html";
+	};
+
+	(function () {
+		var d = document, s = d.createElement('script');
+		s.src = '//jeric.disqus.com/embed.js';
+		s.setAttribute('data-timestamp', +new Date());
+		(d.head || d.body).appendChild(s);
+	})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
 	</div>
+
+	
+		<div id="blogger-comments-option">
+			<center>
+				<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="showOldComments();">
+					See ancient comments
+				</button>
+			</center>
+		</div>
+		<div id="blogger-comments" style="display: none;">
+			<div class="g-comments"
+	 
+	 data-href="http://www.jericdy.com/blog/2014/01/09/proper-way-to-use-full-screen-immersive.html"
+	 
+	 data-width="642"
+	 data-first_party_property="BLOGGER"
+	 data-view_type="FILTERED_POSTMOD">
+</div>
+
+		</div>
+	
 
 </div>
 
