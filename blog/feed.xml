@@ -5,9 +5,20 @@
 		<description>Welcome to my blog section. Here, I talk about my life and hobbies.</description>
 		<link>http://www.jericdy.com/blog</link>
 		<atom:link href="http://www.jericdy.com/blog/feed.xml" rel="self" type="application/rss+xml" />
-		<pubDate>Sun, 14 Aug 2016 14:31:58 +0000</pubDate>
-		<lastBuildDate>Sun, 14 Aug 2016 14:31:58 +0000</lastBuildDate>
+		<pubDate>Mon, 15 Aug 2016 15:00:05 +0000</pubDate>
+		<lastBuildDate>Mon, 15 Aug 2016 15:00:05 +0000</lastBuildDate>
 		<generator>Jekyll v3.1.6</generator>
+		
+			<item>
+				<title>My Problem with Pokémon Go</title>
+				<pubDate>Mon, 15 Aug 2016 14:58:00 +0000</pubDate>
+				<link>http://www.jericdy.com/blog/2016/08/15/my-problem-with-pokemon-go.html</link>
+				<guid isPermaLink="true">http://www.jericdy.com/blog/2016/08/15/my-problem-with-pokemon-go.html</guid>
+				
+				
+					<category>blog</category>
+				
+			</item>
 		
 			<item>
 				<title>Migrating Comments</title>
