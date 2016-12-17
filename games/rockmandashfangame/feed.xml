@@ -5,9 +5,22 @@
 		<description>A Mega Man Legends fan game written in C++ with using DirectX</description>
 		<link>http://www.jericdy.com/games/rockmandashfangame/</link>
 		<atom:link href="http://www.jericdy.com/games/rockmandashfangame/feed.xml" rel="self" type="application/rss+xml" />
-		<pubDate>Mon, 15 Aug 2016 15:27:13 +0000</pubDate>
-		<lastBuildDate>Mon, 15 Aug 2016 15:27:13 +0000</lastBuildDate>
-		<generator>Jekyll v3.1.6</generator>
+		<pubDate>Sat, 17 Dec 2016 10:46:35 +0000</pubDate>
+		<lastBuildDate>Sat, 17 Dec 2016 10:46:35 +0000</lastBuildDate>
+		<generator>Jekyll v3.3.1</generator>
+		
+			<item>
+				<title>Happy 29th Anniversary to Mega Man!</title>
+				<pubDate>Sat, 17 Dec 2016 10:30:00 +0000</pubDate>
+				<link>http://www.jericdy.com/games/rockmandashfangame/2016/12/17/happy-29th-anniversary-to-mega-man.html</link>
+				<guid isPermaLink="true">http://www.jericdy.com/games/rockmandashfangame/2016/12/17/happy-29th-anniversary-to-mega-man.html</guid>
+				
+				
+					<category>games</category>
+				
+					<category>rockmandashfangame</category>
+				
+			</item>
 		
 			<item>
 				<title>Happy 28th Anniversary to Mega Man!</title>
@@ -101,7 +114,7 @@
 			</item>
 		
 			<item>
-				<title>Capcom&#39;s Bad News</title>
+				<title>Capcom's Bad News</title>
 				<pubDate>Wed, 20 Jul 2011 15:18:00 +0000</pubDate>
 				<link>http://www.jericdy.com/games/rockmandashfangame/2011/07/20/capcoms-bad-news.html</link>
 				<guid isPermaLink="true">http://www.jericdy.com/games/rockmandashfangame/2011/07/20/capcoms-bad-news.html</guid>
@@ -127,7 +140,7 @@
 			</item>
 		
 			<item>
-				<title>Bonne Machine inspired by Command and Conquer&#39;s Mammoth Tank</title>
+				<title>Bonne Machine inspired by Command and Conquer's Mammoth Tank</title>
 				<pubDate>Thu, 10 Mar 2011 06:10:00 +0000</pubDate>
 				<link>http://www.jericdy.com/games/rockmandashfangame/2011/03/10/bonne-machine-inspired-by-command-and-conquers-mammoth-tank.html</link>
 				<guid isPermaLink="true">http://www.jericdy.com/games/rockmandashfangame/2011/03/10/bonne-machine-inspired-by-command-and-conquers-mammoth-tank.html</guid>

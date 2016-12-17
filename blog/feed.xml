@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>Jeric&#39;s Blog</title>
+		<title>Jeric's Blog</title>
 		<description>Welcome to my blog section. Here, I talk about my life and hobbies.</description>
 		<link>http://www.jericdy.com/blog</link>
 		<atom:link href="http://www.jericdy.com/blog/feed.xml" rel="self" type="application/rss+xml" />
-		<pubDate>Mon, 15 Aug 2016 15:27:13 +0000</pubDate>
-		<lastBuildDate>Mon, 15 Aug 2016 15:27:13 +0000</lastBuildDate>
-		<generator>Jekyll v3.1.6</generator>
+		<pubDate>Sat, 17 Dec 2016 10:46:35 +0000</pubDate>
+		<lastBuildDate>Sat, 17 Dec 2016 10:46:35 +0000</lastBuildDate>
+		<generator>Jekyll v3.3.1</generator>
 		
 			<item>
 				<title>My Problem with Pokémon Go</title>
@@ -43,7 +43,7 @@
 			</item>
 		
 			<item>
-				<title>It&#39;s always the Hinge</title>
+				<title>It's always the Hinge</title>
 				<pubDate>Sun, 11 May 2014 18:14:00 +0000</pubDate>
 				<link>http://www.jericdy.com/blog/2014/05/11/its-always-hinge.html</link>
 				<guid isPermaLink="true">http://www.jericdy.com/blog/2014/05/11/its-always-hinge.html</guid>
@@ -186,7 +186,7 @@
 			</item>
 		
 			<item>
-				<title>It&#39;s that time of the year again</title>
+				<title>It's that time of the year again</title>
 				<pubDate>Fri, 11 Nov 2011 03:11:00 +0000</pubDate>
 				<link>http://www.jericdy.com/blog/2011/11/11/its-that-time-of-year-again.html</link>
 				<guid isPermaLink="true">http://www.jericdy.com/blog/2011/11/11/its-that-time-of-year-again.html</guid>
@@ -318,7 +318,7 @@
 			</item>
 		
 			<item>
-				<title>Google&#39;s Blessing</title>
+				<title>Google's Blessing</title>
 				<pubDate>Fri, 24 Sep 2010 09:47:00 +0000</pubDate>
 				<link>http://www.jericdy.com/blog/2010/09/24/googles-blessing.html</link>
 				<guid isPermaLink="true">http://www.jericdy.com/blog/2010/09/24/googles-blessing.html</guid>
@@ -373,7 +373,7 @@
 			</item>
 		
 			<item>
-				<title>Mike&#39;s Laptop</title>
+				<title>Mike's Laptop</title>
 				<pubDate>Sat, 31 Jul 2010 05:41:00 +0000</pubDate>
 				<link>http://www.jericdy.com/blog/2010/07/31/mikes-laptop.html</link>
 				<guid isPermaLink="true">http://www.jericdy.com/blog/2010/07/31/mikes-laptop.html</guid>
