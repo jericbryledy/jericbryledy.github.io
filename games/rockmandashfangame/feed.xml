@@ -5,9 +5,22 @@
 		<description>A Mega Man Legends fan game written in C++ with using DirectX</description>
 		<link>http://www.jericdy.com/games/rockmandashfangame/</link>
 		<atom:link href="http://www.jericdy.com/games/rockmandashfangame/feed.xml" rel="self" type="application/rss+xml" />
-		<pubDate>Thu, 22 Dec 2016 16:17:19 +0000</pubDate>
-		<lastBuildDate>Thu, 22 Dec 2016 16:17:19 +0000</lastBuildDate>
+		<pubDate>Sat, 21 Jan 2017 16:50:47 +0000</pubDate>
+		<lastBuildDate>Sat, 21 Jan 2017 16:50:47 +0000</lastBuildDate>
 		<generator>Jekyll v3.3.1</generator>
+		
+			<item>
+				<title>A Minor Update</title>
+				<pubDate>Sat, 21 Jan 2017 02:30:00 +0000</pubDate>
+				<link>http://www.jericdy.com/games/rockmandashfangame/2017/01/21/a-minor-update.html</link>
+				<guid isPermaLink="true">http://www.jericdy.com/games/rockmandashfangame/2017/01/21/a-minor-update.html</guid>
+				
+				
+					<category>games</category>
+				
+					<category>rockmandashfangame</category>
+				
+			</item>
 		
 			<item>
 				<title>Happy 29th Anniversary to Mega Man!</title>
