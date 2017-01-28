@@ -271,7 +271,8 @@ pre {
 
 .site-title-link {
   float: left;
-  background-image: url("/images/jeric-logo-small.png"); }
+  background-image: url("/images/jeric-logo-small.png");
+  width: 143px; }
 
 .site-title-link:hover {
   text-decoration: none; }
@@ -296,6 +297,9 @@ pre {
 
 .site-title-link .site-moto::before {
   content: "\2937"; }
+
+.site-title {
+  text-align: center; }
 
 .site-nav {
   float: right;
